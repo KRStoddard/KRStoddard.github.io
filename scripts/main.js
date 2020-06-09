@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/paris-art.jpg') {
-      myImage.setAttribute ('src','images/who.jpg');
+    if(mySrc === 'KRStoddard.github.io/images/paris-art.jpg') {
+      myImage.setAttribute ('src','KRStoddard.github.io/images/who.jpg');
     } else {
-      myImage.setAttribute ('src','images/paris-art.jpg');
+      myImage.setAttribute ('src','KRStoddard.github.io/images/paris-art.jpg');
     }
 }
 let myButton = document.querySelector('button');
